@@ -1,0 +1,3 @@
+[submodule "rxofclock"]
+	path = rxofclock
+	url = https://github.com/rexcape/rxofclock.git
