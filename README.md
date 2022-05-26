@@ -6,6 +6,10 @@ This is the desktop offline edition of [rexcape/rxofclock](https://www.github.co
 
 This repo is using Github Actions for release on tags. The workflow file is [here](./.github/workflows/publish.yml)
 
+## Known issues
+
+- (Windows) The sheet selection dropdown menu will appear in the wrong position after running the app and click the select element.
+
 ## Build Manually
 
 You can build this app manually:
