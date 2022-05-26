@@ -7,12 +7,12 @@
     "distDir": "../rxofclock/dist"
   },
   "package": {
-    "productName": "rxofclock-desktop",
+    "productName": "rxofclock",
     "version": "../package.json"
   },
   "tauri": {
     "allowlist": {
-      "all": true
+      "all": false
     },
     "bundle": {
       "active": true,
