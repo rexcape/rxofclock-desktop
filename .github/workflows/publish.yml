@@ -48,7 +48,7 @@ jobs:
       - name: Install node dependencies
         run: pnpm install
       - name: Build tauri with official tauri-action
-        uses: tauri-apps/tauri-action@dev
+        uses: rexcape/tauri-action@fix-version-parsing
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
